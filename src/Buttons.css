@@ -1,0 +1,37 @@
+.rectHolder {
+    position: absolute;
+	height: 7vh;
+	width: 36vh;
+	cursor: pointer;
+    transition: all ease-in-out 0.5s;
+    margin-left: 37vh;
+    margin-top: 4.5vh;
+}
+
+
+.rectForward {
+    position: absolute;
+    border: 0.7vh solid #F4D676;
+	height: 6vh;
+	width: 16vh;
+	cursor: pointer;
+	transition: all ease-in-out 0.5s;
+}
+
+.rectForward:hover {
+	box-shadow: inset 0vh -5vh 10vh 10vh #5C2686;
+}
+
+.rectBackward {
+    position: absolute;
+    border: 0.7vh solid #F4D676;
+	height: 6vh;
+	width: 16vh;
+	cursor: pointer;
+    transition: all ease-in-out 0.5s;
+    margin-left: 20vh;
+}
+
+.rectBackward:hover {
+	box-shadow: inset 0vh 5vh 10vh 10vh #5C2686;
+}

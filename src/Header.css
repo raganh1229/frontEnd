@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+@font-face {
+    src: url(fonts/NeutraText-Book.otf);
+    font-family: Neutra;
+}
+
+@font-face {
+	src: url(fonts/Myriad-Pro.ttf);
+	font-family: Myriad;
+}
+
+* {
+   cursor: default;
+}
+
+p {
+	font-family: 'Neutra';
+	font-size: 3.13vh;
+	color: #F4D676;
+	text-align: left;
+	margin-top: -4vh;
+	cursor: pointer;
+}
+
+h2 {
+	font-family: 'Neutra';
+	font-size: 3vh;
+	color: #F4D676;
+	text-align: center;
+	margin-top: 1.2vh;
+	cursor: pointer;
+}
+
+h3 {
+	font-family: 'Neutra';
+	font-size: 6vh;
+	color: #F4D676;
+	text-align: left;
+	margin-top: 0vh;
+	cursor: pointer;
+}
+
+.headerText {
+	font-family: 'Neutra';
+	color: #F4D676;
+	font-size: 25.5vh;
+	font-weight: normal;
+	position: absolute;
+	letter-spacing: -0.35vh;
+	margin-left: 13.3vh;
+	margin-top: -1vh;
+}
+
+
+.headerBox {
+    height: 33.333vh;
+	width: auto;
+	background-color: #5C2686;
+}
+
+.wordHead {
+    height: 33vh;
+	width: 75vh;
+    margin: auto;
+}
+
+.rect1 {
+	position: absolute;
+	border: 1.2vh solid #F4D676;
+	height: 20vh;
+	width: 10vh;
+	margin-top: 5.5vh;
+	cursor: pointer;
+	transition: all ease-in-out 0.5s;
+}
+
+.rect1:hover {
+	box-shadow: inset -10vh 0vh 0vh 0vh #FF1690;
+}
+
+.tilt1 {
+	transform: rotate(-45deg);
+	margin-top: 3vh;
+	margin-left: -0.7vh;
+	width: 7vh;
+	height: 5.2vh;
+	border-bottom: 1.2vh solid #F4D676;
+	position: absolute;
+	z-index: 5;
+	cursor: pointer;
+}
+
+.tilt2 {
+	transform: rotate(45deg);
+	margin-top: 7.3vh;
+	margin-left: 2.9vh;
+	width: 7vh;
+	height: 5.2vh;
+	border-bottom: 1.2vh solid #F4D676;
+	position: absolute;
+	z-index: 5;
+	cursor: pointer;
+}
+
+.line1 {
+	position: absolute;
+	width: 60vh;
+	height: 5.5vh;
+	border-bottom: 1.3vh solid #F4D676;
+	margin-top: 20.9vh;
+	margin-left: 14.4vh;
+}

@@ -1,0 +1,49 @@
+.rectImage {
+    position: absolute;
+    border: 0.7vh solid #F4D676;
+	height: 34vh;
+	width: 30vh;
+	margin-top: 4.5vh;
+	cursor: pointer;
+	transition: all ease-in-out 0.5s;
+}
+
+a {
+	text-decoration: none;
+	color: #F4D676;
+	cursor: pointer;
+}
+
+.downloadBut1 {
+    position: absolute;
+    border: 0.7vh solid #F4D676;
+	height: 6vh;
+	width: 30vh;
+	margin-top: 43.5vh;
+	cursor: pointer;
+	transition: all ease-in-out 0.5s;
+}
+
+.downloadBut1:hover {
+	box-shadow: inset 0vh -5vh 10vh 10vh #5C2686;
+}
+
+.downloadBut2 {
+    position: absolute;
+    border: 0.7vh solid #F4D676;
+	height: 6vh;
+	width: 30vh;
+	margin-top: 54.0vh;
+	cursor: pointer;
+	transition: all ease-in-out 0.5s;
+}
+
+.downloadBut2:hover {
+	box-shadow: inset 0vh -5vh 10vh 10vh #5C2686;
+}
+
+.imagePost {
+	width: 30vh;
+	overflow: hidden;
+	
+}

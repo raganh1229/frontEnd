@@ -1,0 +1,56 @@
+
+.col2 {
+    position: absolute;
+	height: 45vh;
+	width: 36vh;
+	cursor: pointer;
+    transition: all ease-in-out 0.5s;
+    margin-left: 37vh;
+    margin-top: 15vh;
+}
+
+.line2 {
+	position: absolute;
+	width: 32vh;
+    height: 0vh;
+    margin-top: -5.5vh;
+	border-bottom: 0.55vh solid #F4D676;
+}
+
+.lineBox {
+    position: absolute;
+	height: 45vh;
+    width: 22vh;
+	cursor: pointer;
+    transition: all ease-in-out 0.5s;
+    margin-top: -50vh;
+    margin-left: 14vh;
+}
+
+.line3 {
+	position: absolute;
+	width: 7vh;
+    height: 0vh;
+    margin-top: 1vh;
+    margin-left: 16.2vh;
+	border-bottom: 0.7vh solid #F4D676;
+}
+
+.line4 {
+	position: absolute;
+    width: 0vh;
+    height: 45vh;
+    margin-top: 1vh;
+    margin-left: 22.6vh;
+	border-left: 0.7vh solid #F4D676;
+}
+
+.line5 {
+    align-content: left;
+    position: absolute;
+	width: 13vh;
+    height: 44.5vh;
+    margin-top: 1vh;
+    margin-left: 10.26vh;
+	border-bottom: 0.7vh solid #F4D676;
+}
