@@ -20,7 +20,7 @@ class Column1 extends React.Component {
                      </h2>
                  </div>
              </React.Fragment> 
-         )
+         ) 
      }     
 }
 

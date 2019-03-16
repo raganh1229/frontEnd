@@ -29,7 +29,7 @@ const myData = [
         link1: "https://github.com/raganh1229/Chinese_Writer",
         download: File1
     },
-    {
+    { 
         id: 4,
         text1: "randoColor",
         text2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",

@@ -8,7 +8,7 @@ function Column2(props) {
             <div className="line2"></div>
             <p>{props.text2}</p>
         </div>
-    )
+    ) 
 }
 
 export default Column2;
