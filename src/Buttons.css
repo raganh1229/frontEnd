@@ -35,3 +35,36 @@
 .rectBackward:hover {
 	box-shadow: inset 0vh 5vh 10vh 10vh #5C2686;
 }
+
+@media (min-width:0px) and (max-width:600px) {
+
+    .rectHolder {
+		position: absolute;
+		height: 7vh;
+		width: 36vh;
+		cursor: pointer;
+		transition: all ease-in-out 0.5s;
+		margin-left: 0vh;
+		margin-top: 107vh;
+	}
+	
+	.rectForward {
+		position: absolute;
+		border: 0.7vh solid #F4D676;
+		height: 6vh;
+		width: 13vh;
+		cursor: pointer;
+		transition: all ease-in-out 0.5s;
+	}
+
+	.rectBackward {
+		position: absolute;
+		border: 0.7vh solid #F4D676;
+		height: 6vh;
+		width: 13vh;
+		cursor: pointer;
+		transition: all ease-in-out 0.5s;
+		margin-left: 17vh;
+	}
+
+}

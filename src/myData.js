@@ -25,7 +25,7 @@ const myData = [
         id: 3,
         text1: "shangBlog",
         text2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        image1: Image3,
+        image1: Image4,
         link1: "https://github.com/raganh1229/Chinese_Writer",
         download: File1
     },
@@ -33,8 +33,8 @@ const myData = [
         id: 4,
         text1: "randoColor",
         text2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        image1: Image4,
-        link1: "https://stackoverflow.com/users/10285887/john-harrison",
+        image1: Image3,
+        link1: "https://github.com/raganh1229/randoColor",
         download: File1
     }
 

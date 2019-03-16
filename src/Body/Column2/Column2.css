@@ -2,7 +2,7 @@
 .col2 {
     position: absolute;
 	height: 45vh;
-	width: 36vh;
+	width: 35vh;
 	cursor: pointer;
     transition: all ease-in-out 0.5s;
     margin-left: 37vh;
@@ -53,4 +53,27 @@
     margin-top: 1vh;
     margin-left: 10.26vh;
 	border-bottom: 0.7vh solid #F4D676;
+}
+
+@media (min-width:0px) and (max-width:600px) {
+
+    .col2 {
+        position: absolute;
+        height: 45vh;
+        width: 30vh;
+        cursor: pointer;
+        transition: all ease-in-out 0.5s;
+        margin-left: 0vh;
+        margin-top: 63vh;
+    }
+
+    p {
+        font-family: 'Neutra';
+        font-size: 2.69vh;
+        color: #F4D676;
+        text-align: left;
+        margin-top: -4vh;
+        cursor: pointer;
+    }
+
 }
