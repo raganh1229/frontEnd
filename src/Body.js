@@ -16,7 +16,7 @@ class Body extends React.Component {
 
     HandleCurrentIndex(type) {
             if (type === 'inc') {
-                if (this.state.currentIndex < 3) {
+                if (this.state.currentIndex < 6) {
                 this.setState({currentIndex: (this.state.currentIndex + 1)})
             }
         }
@@ -34,6 +34,7 @@ class Body extends React.Component {
         var link1val = this.state.importData.map(item => item.link1)
         var download = this.state.importData.map(item => item.download)
         var imageval = this.state.importData.map(item => item.image1)
+        var specialTitle = this.state.importData.map(item => item.specialTitle)
 
         return(
             <div className="mainBody">
@@ -42,7 +43,8 @@ class Body extends React.Component {
                     <Column1
                         image={imageval[this.state.currentIndex]} 
                         link1={link1val[this.state.currentIndex]}
-                        download={download[this.state.currentIndex]}>
+                        download={download[this.state.currentIndex]}
+                        specialTitle={specialTitle[this.state.currentIndex]}>
                     </Column1>
                     
                     <div className="rectHolder">

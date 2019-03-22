@@ -10,7 +10,7 @@ function Header() {
                     <div className="tilt2"></div>
                 </div>
                 <h1 className="headerText">
-                    :Front
+                    \Front
                 </h1>
                 <div className="line1">
                 </div>

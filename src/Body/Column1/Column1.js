@@ -11,12 +11,7 @@ class Column1 extends React.Component {
                  </div>
                  <div onClick={() => window.open(this.props.link1)} className="downloadBut1">
                      <h2>
-                         Repository
-                     </h2>
-                 </div>
-                 <div method="get" action="file.doc" className="downloadBut2">
-                     <h2>
-                     <a href={this.props.download} download>Source</a>
+                         {this.props.specialTitle}
                      </h2>
                  </div>
              </React.Fragment> 
@@ -25,3 +20,11 @@ class Column1 extends React.Component {
 }
 
 export default Column1;
+
+//For additional button
+
+// <div method="get" action="file.doc" className="downloadBut2">
+// <h2>
+// <a href={this.props.download} download>Source</a>
+// </h2>
+// </div>

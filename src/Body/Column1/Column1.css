@@ -1,7 +1,7 @@
 .rectImage {
     position: absolute;
     border: 0.7vh solid #F4D676;
-	height: 34vh;
+	height: 45vh;
 	width: 30vh;
 	margin-top: 4.5vh;
 	cursor: pointer;
@@ -19,7 +19,7 @@ a {
     border: 0.7vh solid #F4D676;
 	height: 6vh;
 	width: 30vh;
-	margin-top: 43.5vh;
+	margin-top: 54.0vh;
 	cursor: pointer;
 	transition: all ease-in-out 0.5s;
 }

@@ -44,14 +44,13 @@ h3 {
 .headerText {
 	font-family: 'Neutra';
 	color: #F4D676;
-	font-size: 25.5vh;
+	font-size: 23vh;
 	font-weight: normal;
 	position: absolute;
-	letter-spacing: -0.35vh;
+	letter-spacing: -0.2vh;
 	margin-left: 13.3vh;
-	margin-top: -1vh;
+	margin-top: 0.5vh;
 }
-
 
 .headerBox {
     height: 33.333vh;
@@ -115,7 +114,7 @@ h3 {
 @media (min-width:0px) and (max-width:600px) {
 
 	.headerBox {
-		height: 20vh;
+		height: 18vh;
 		width: auto;
 		background-color: #5C2686;
 	}
@@ -135,9 +134,9 @@ h3 {
 		font-size: 10vh;
 		font-weight: normal;
 		position: absolute;
-		letter-spacing: -0.35vh;
-		margin-left: 8vh;
-		margin-top: 3.5vh;
+		letter-spacing: -0.5vh;
+		margin-left: 6.6vh;
+		margin-top: 1.8vh;
 	}
 
     .wordHead {
@@ -150,7 +149,7 @@ h3 {
 		position: absolute;
 		border: 0.6vh solid #F4D676;
 		height: 9vh;
-		width: 6vh;
+		width: 5vh;
 		margin-top: 4vh;
 		cursor: pointer;
 		transition: all ease-in-out 0.5s;
@@ -163,7 +162,7 @@ h3 {
 	.tilt1 {
 		transform: rotate(-45deg);
 		margin-top: 1.7vh;
-		margin-left: 0.5vh;
+		margin-left: 0.0vh;
 		width: 3vh;
 		height: 2.2vh;
 		border-bottom: 0.6vh solid #F4D676;
@@ -175,7 +174,7 @@ h3 {
 	.tilt2 {
 		transform: rotate(45deg);
 		margin-top: 3.5vh;
-		margin-left: 2.1vh;
+		margin-left: 1.6vh;
 		width: 3vh;
 		height: 2.2vh;
 		border-bottom: 0.6vh solid #F4D676;
@@ -186,11 +185,11 @@ h3 {
 	
 	.line1 {
 		position: absolute;
-		width: 31vh;
+		width: 24vh;
 		height: 4vh;
 		border-bottom: 0.6vh solid #F4D676;
-		margin-top: 12vh;
-		margin-left: 0vh;
+		margin-top: 9.5vh;
+		margin-left: 7vh;
 	}
 
 } 
